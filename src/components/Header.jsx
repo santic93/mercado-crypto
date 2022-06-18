@@ -11,6 +11,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import CurrencyBitcoinSharpIcon from "@mui/icons-material/CurrencyBitcoinSharp";
 import PaidSharpIcon from "@mui/icons-material/PaidSharp";
 import CurrencyExchangeSharpIcon from "@mui/icons-material/CurrencyExchangeSharp";
+import AddCoin from "./AddCoin";
 
 
 const Search = styled("div")(({ theme }) => ({
@@ -108,6 +109,7 @@ export default function Header() {
             >
               <CurrencyExchangeSharpIcon />
             </IconButton>
+        
           </Box>
         </Toolbar>
       </AppBar>
